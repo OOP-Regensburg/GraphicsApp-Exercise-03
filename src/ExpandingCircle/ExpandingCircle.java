@@ -54,8 +54,8 @@ public class ExpandingCircle extends GraphicsApp {
     }
 
     /*
-     * For each call of this method, the circles width and height is increased by 1. If MAX_CIRCLE_RADIUS is reached,
-     * the circles width and height are reset to INITIAL_CIRCLE_RADIUS.
+     * For each call of this method, the circle's radius is increased by 1. If MAX_CIRCLE_RADIUS is reached,
+     * the circle's radius is reset to INITIAL_CIRCLE_RADIUS.
      */
     private void updateCircle() {
         float newCircleRadius = circle.getRadius() + 1;
@@ -63,7 +63,7 @@ public class ExpandingCircle extends GraphicsApp {
         if(newCircleRadius > MAX_CIRCLE_RADIUS * 2) {
             newCircleRadius = INITIAL_CIRCLE_RADIUS * 2;
         }
-        
+
         circle.setRadius(newCircleRadius);
     }
 }
