@@ -7,7 +7,7 @@ import de.ur.mi.oop.graphics.Circle;
 
 public class Target extends GraphicsApp {
 
-    /* constants for canvas setup */
+    /* Private Konstanten */
     private static final int CANVAS_HEIGHT = 800;
     private static final int CANVAS_WIDTH = 800;
     private static final Color BACKGROUND_COLOR = Colors.WHITE;
@@ -22,7 +22,8 @@ public class Target extends GraphicsApp {
     private static int INITIAL_RING_WIDTH = 10;
 
     /*
-     * This method is called once when the program is started.
+     * Die initialize-Methode wird einmalig zum Start des Programms
+     * aufgerufen.
      */
 
     @Override
@@ -31,7 +32,8 @@ public class Target extends GraphicsApp {
     }
 
     /*
-     * This method is called repeatedly while the program is running.
+     * Die draw-Methode wird so lange wiederholt aufgerufen, bis das Programm
+     * beendet wird.
      */
 
     @Override

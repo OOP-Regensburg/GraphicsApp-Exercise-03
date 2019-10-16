@@ -8,7 +8,7 @@ import de.ur.mi.oop.graphics.Rectangle;
 
 public class Pyramide extends GraphicsApp {
 
-    /* constants for canvas setup */
+    /* Private Konstanten */
     private static final int CANVAS_HEIGHT = 800;
     private static final int CANVAS_WIDTH = 800;
     private static final int HORIZONTAL_CENTER = CANVAS_WIDTH / 2;
@@ -22,7 +22,8 @@ public class Pyramide extends GraphicsApp {
     private final Color BRICK_COLOR = Colors.ORANGE;
 
     /*
-     * This method is called once when the program is started.
+     * Die initialize-Methode wird einmalig zum Start des Programms
+     * aufgerufen.
      */
 
     @Override
@@ -31,7 +32,8 @@ public class Pyramide extends GraphicsApp {
     }
 
     /*
-     * This method is called repeatedly while the program is running.
+     * Die draw-Methode wird so lange wiederholt aufgerufen, bis das Programm
+     * beendet wird.
      */
 
     @Override
