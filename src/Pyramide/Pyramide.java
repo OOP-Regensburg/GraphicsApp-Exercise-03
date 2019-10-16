@@ -14,7 +14,7 @@ public class Pyramide extends GraphicsApp {
     private static final int HORIZONTAL_CENTER = CANVAS_WIDTH / 2;
     private static final Color BACKGROUND_COLOR = Colors.BLACK;
 
-    /* constants for bricks */
+    /* Konstanten für die Bricks */
     private final int BRICK_WIDTH = 30;
     private final int BRICK_HEIGHT = 12;
     private final int BRICKS_IN_BASE = 14;

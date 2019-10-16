@@ -7,12 +7,10 @@ import de.ur.mi.oop.graphics.Ellipse;
 
 public class HelloGraphicsApp extends GraphicsApp {
 
-    /* Private constants */
+    /* Private Konstanten */
     private static final Color BACKGROUND_COLOR = Colors.WHITE;
     private static final int CANVAS_WIDTH = 500;
     private static final int CANVAS_HEIGHT = 500;
-    /* Private Konstanten */
-    private static final Color BACKGROUND_COLOR = Colors.BLACK;
 
     /*
      * Die initialize-Methode wird einmalig zum Start des Programms

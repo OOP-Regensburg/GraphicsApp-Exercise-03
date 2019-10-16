@@ -15,7 +15,7 @@ public class Target extends GraphicsApp {
     private static final int HORIZONTAL_CENTER = CANVAS_WIDTH / 2;
     private static final int VERTICAL_CENTER = CANVAS_HEIGHT / 2;
 
-    /* properties for dart target */
+    /* Eigenschaften des Dart-Targets */
     private static Color RING_COLOR_UNEVEN = Colors.RED;
     private static Color RING_COLOR_EVEN = Colors.WHITE;
     private static int NUM_RINGS = 15;
