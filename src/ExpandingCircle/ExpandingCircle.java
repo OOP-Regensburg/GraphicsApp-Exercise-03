@@ -56,9 +56,10 @@ public class ExpandingCircle extends GraphicsApp {
     }
 
     /*
-     * For each call of this method, the circle's radius is increased by 1. If MAX_CIRCLE_RADIUS is reached,
-     * the circle's radius is reset to INITIAL_CIRCLE_RADIUS.
+     * Bei jedem Methodenaufruf der updateCircle-Methode wird der Kreisradius um 1 erhöht. Wenn MAX_CIRCLE_RADIUS
+     * erreicht ist, wird der Kreisradius auf INITIAL_CIRCLE_RADIUS zurückgesetzt.
      */
+
     private void updateCircle() {
         float newCircleRadius = circle.getRadius() + 1;
 

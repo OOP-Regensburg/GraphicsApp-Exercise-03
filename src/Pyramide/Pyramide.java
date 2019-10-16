@@ -47,10 +47,6 @@ public class Pyramide extends GraphicsApp {
         drawBackground(BACKGROUND_COLOR);
     }
 
-    /*
-     * Methods for pyramid drawing
-     */
-
     private void drawPyramid() {
         int xPosStart = HORIZONTAL_CENTER - (BRICK_WIDTH * BRICKS_IN_BASE / 2)  ;
         for (int currentRow = 1; currentRow <= PYRAMID_ROWS; currentRow++) {

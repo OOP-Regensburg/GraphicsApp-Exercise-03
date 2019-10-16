@@ -38,10 +38,6 @@ public class HelloGraphicsApp extends GraphicsApp {
         drawBackground(BACKGROUND_COLOR);
     }
 
-    /*
-     * Methods for face drawing
-     */
-
     private void drawSmiley() {
         drawFace();
         drawMouth();
